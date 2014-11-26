@@ -1,0 +1,62 @@
+html {
+    background-color: #eee;
+
+}
+
+body{
+  margin:10px;
+}
+header{
+  font-family: Trebuchet MS;
+  font-size:50px;
+  color:grey;
+}
+
+h1{
+  font-family: Trebuchet MS;
+  color:grey;
+  line-height:50px;
+}
+
+p{
+  font-family: Trebuchet MS;
+}
+
+#spanish{
+  color:black;
+}
+
+#english{
+  color:black;
+}
+
+#table {
+  display: table;
+}
+
+#answer-table{
+  display:table;
+}
+
+#first-row{
+  font-family: trebuchet MS;
+  font-size: 25px;
+  color:grey;
+  font-weight:bold;
+}
+
+#first-row, #second-row{
+  display: table-row;
+  line-height:5px;
+}
+
+.row{
+  display: table-row;
+  line-height:25px;
+}
+
+.left, .right, .middle {
+  display: table-cell;
+  text-align:left;
+  padding-right:25px;
+}
