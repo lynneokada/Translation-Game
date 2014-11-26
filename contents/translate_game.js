@@ -5,8 +5,9 @@ $(function() {
 	var lang_from		= "Spanish";
 	var current_dict	= dicts[lang_to][lang_from]; // keys: words in @lang_to, values: corresponding words in @lang_from
 
-
-	var keys = Object.keys(current_dict)
+	$.each(current_dict, function(key, value){
+		console.log(key)
+	})
 	console.log("current_dict", current_dict)
 	console.log("keys", keys)
 
